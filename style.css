@@ -541,9 +541,13 @@ nav li:hover::after{
 
 
 .donate h1{
+    width:50%;
     text-align:center;
-    font-size:36px;
+    font-size:30px; 
+    margin:auto;
 }
+
+
 
 
 .donate-container{
@@ -555,8 +559,11 @@ nav li:hover::after{
 }
 
 
+
+
+
 .form-group{
- width:500px;
+  width:500px;
    height:500px;
    background:var(--primary-color);
    box-shadow:0px 0px 8px rgba(55, 27, 4, 0.2);
@@ -630,7 +637,6 @@ form  .donate-send:hover{
 .donate-info h2{
         font-size:17px;
         font-weight:600;
-        width:400px;
         line-height:28px;
         text-align:center;
         margin:30px auto;
@@ -644,16 +650,8 @@ form  .donate-send:hover{
 
 
 .donate-info img{
-    width:100%;
+    max-width:100%;
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -1002,10 +1000,6 @@ form  .donate-send:hover{
     border-radius:5px;
     margin:5px 0;
 }
-
-
-
-
 
 
 
@@ -1388,9 +1382,26 @@ nav li a{
 
 
 .donate-container{
-     width:95%;
+     width:100%;
     
 }
+
+.donate h1{
+    width:100%;
+    font-size:18px;
+    line-height:30px;
+}
+
+
+.donate-details{
+        font-size:17px;
+        border:2px solid red;
+}
+
+
+
+
+
 
 
 .need h1{
