@@ -110,18 +110,20 @@ nav li:hover::after{
 }
 
 
-.donate a{
+.btn-2 a{
     padding:15px 35px;
     color:var(--white-color);
     border-radius:25px;
     font-weight:700;
     background-color:#007bff;
     transition:background .3s;
+    display:inline-block;
+    margin-top:40px;
 } 
 
 
-.donate a:hover{
-    background-color: #062547;
+.btn-2 a:hover{
+    background-color: #205185;
 }
 
 
