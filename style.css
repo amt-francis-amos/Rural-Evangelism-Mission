@@ -110,15 +110,19 @@ nav li:hover::after{
 }
 
 
-/* .donate a{
+.donate a{
     padding:15px 35px;
     color:var(--white-color);
     border-radius:25px;
     font-weight:700;
+    background-color:#007bff;
     transition:background .3s;
-} */
+} 
 
 
+.donate a:hover{
+    background-color: #062547;
+}
 
 
 
@@ -416,7 +420,7 @@ nav li:hover::after{
 
 
 
-.team h1::after, .donate h1::after{
+.team h1::after{
     content:'';
     width:120px;
     height:5px;
@@ -530,17 +534,28 @@ nav li:hover::after{
 
 /* ----- DONATE STYLING ------ */
 
-.donate{
+.donate-1{
    padding:100px 0;
 }
 
 
 
-.donate h1{
+.donate-1 h1{
     width:50%;
     text-align:center;
     font-size:30px; 
     margin:auto;
+}
+
+
+.donate-1 h1::after{
+    content:'';
+    width:120px;
+    height:5px;
+    background:var(--primary-color);
+    display:block;
+    border-radius:6px;
+    margin:5px auto;
 }
 
 
@@ -555,21 +570,21 @@ nav li:hover::after{
 }
 
 
-.donate i{
+.donate-info i{
     color:#007bff;
     font-size:20px;
     margin:0 15px;
 }
 
 
-.donate .email{
+.donate-info .email{
     color:#000;
     margin-bottom:40px;
 
 }
 
 
-.donate .email:hover{
+.donate-info.email:hover{
     color:#007bff;
 }
 
@@ -1399,7 +1414,7 @@ nav li a{
     
 }
 
-.donate h1{
+.donate-1 h1{
     width:100%;
     font-size:18px;
     line-height:30px;
