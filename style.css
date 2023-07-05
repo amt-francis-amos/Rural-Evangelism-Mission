@@ -643,11 +643,11 @@ form  .donate-send:hover{
 }
 
 
-.bank{
+/* .bank{
     color:#007bff;
     font-weight:700;
 }
-
+ */
 
 .donate-info img{
     max-width:100%;
@@ -1387,7 +1387,7 @@ nav li a{
 
 .donate-details{
         font-size:17px;
-        border:2px solid red;
+   
 }
 
 
