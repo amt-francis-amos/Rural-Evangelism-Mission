@@ -572,21 +572,21 @@ nav li:hover::after{
 }
 
 
-.donate-info i{
+.donate-1 i{
     color:#007bff;
     font-size:20px;
     margin:0 15px;
 }
 
 
-.donate-info .email{
+.donate-h1 .email{
     color:#000;
     margin-bottom:40px;
 
 }
 
 
-.donate-info.email:hover{
+.donate-1 .email:hover{
     color:#007bff;
 }
 
