@@ -110,20 +110,16 @@ nav li:hover::after{
 }
 
 
-.donate a{
+/* .donate a{
     padding:15px 35px;
-    background:var(--primary-color);
     color:var(--white-color);
     border-radius:25px;
     font-weight:700;
     transition:background .3s;
-}
+} */
 
 
 
-.donate a:hover{
-    background:#022170;
-}
 
 
 .welcome-section{
@@ -559,6 +555,23 @@ nav li:hover::after{
 }
 
 
+.donate i{
+    color:#007bff;
+    font-size:20px;
+    margin:0 15px;
+}
+
+
+.donate .email{
+    color:#000;
+    margin-bottom:40px;
+
+}
+
+
+.donate .email:hover{
+    color:#007bff;
+}
 
 
 
@@ -643,11 +656,10 @@ form  .donate-send:hover{
 }
 
 
-/* .bank{
+ .bank{
     color:#007bff;
     font-weight:700;
 }
- */
 
 .donate-info img{
     max-width:100%;
@@ -1374,20 +1386,10 @@ nav li a{
 }
 
 
-
-
-
 .trip-info img{
     width:100%;
     margin:auto 60px;
 }
-
-
-
-
-
-
-
 
 
 
@@ -1408,10 +1410,6 @@ nav li a{
         font-size:17px;
    
 }
-
-
-
-
 
 
 
