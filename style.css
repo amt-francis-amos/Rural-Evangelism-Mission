@@ -591,76 +591,48 @@ nav li:hover::after{
 }
 
 
-
-.form-group{
-  width:500px;
-   height:500px;
-   background:var(--primary-color);
-   box-shadow:0px 0px 8px rgba(55, 27, 4, 0.2);
-   padding:30px;
-}
-
-label{
-    display:block;
-    margin-left:5px;
-    color:#fff;
-}
-
-
-.form-info input, select{
-   width:100%;
-   padding:15px;
-   margin:15px 0; 
-   background:#fff;
-   outline:none;
-   border:none;
-   color:#007bff;
-   
-}
-
-
-option{
-    background:#fff;
-    color:#000;
-    padding:0 5px;
-}
-
-
-::placeholder{
-    color:#007bff;
-    font-size:16px;
-}
-
-
-.form-info select{
-    width:100%;
-    padding:6px;
-    margin:15px 0;
-    border: 10px solid #fff;
-}
-
-
-form .donate-send{
-    display:inline-block;
-    padding:17px 30px;
-    background: #ff9500;
-    width:100%;
-    color:#fff;
-    font-size:18px;
-    font-weight:700;
-    outline:none;
-    border:none;
-    text-align:center;
-    border-radius:25px;
-    transition:background .3s;
-}
-
-
-form  .donate-send:hover{
-    background:#e1ba2a;
-}
-
-
+/* Styling for form container */
+#paymentForm {
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  /* Styling for form groups */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for labels */
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Styling for input fields */
+  input[type="email"],
+  input[type="tel"],
+  input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Styling for submit button */
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
 
 
 

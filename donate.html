@@ -40,7 +40,32 @@
       <div class="donate-container">
           <div class="donate-info">
             
-            <img src="images/neo-bank.png">
+            <!-- <img src="images/neo-bank.png">  -->
+            
+            <form id="paymentForm">
+      
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email-address" required />
+              </div>
+              <div class="form-group">
+                <label for="amount">Amount</label>
+                <input type="tel" id="amount" required />
+              </div>
+              <div class="form-group">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" />
+              </div>
+              <div class="form-group">
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" />
+              </div>
+              <div class="form-submit">
+                <button type="submit" onclick="payWithPaystack()"> Pay </button>
+              </div>
+            </form>
+            
+
         
             <!-- <div class="form-group">
               <form action="">
@@ -68,7 +93,7 @@
               </form>
             </div> -->
           </div>
-gfh
+
         <div class="donate-info">
           <div class="donate-details">
             <h1>BANK DETAILS</h1>
@@ -140,6 +165,10 @@ gfh
 
     <!-- ----END OF FOOTER SECTION ---------- -->
 
+
+    
+    <script src="https://js.paystack.co/v1/inline.js"></script> 
+    <script src="js/payment.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
